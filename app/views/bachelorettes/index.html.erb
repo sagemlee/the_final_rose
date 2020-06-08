@@ -1,0 +1,4 @@
+<h1><%= "Contestants of #{@bachelorette.name}'s Season' "%></h1>
+  <% @bachelorette.contestants.each do |contestant| %>
+    <p><%= contestant.name %></p>
+    <% end %>
